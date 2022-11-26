@@ -1,0 +1,26 @@
+{
+  "name": "mproctbot",
+  "version": "1.0.0",
+  "description": "A bot the protects you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheFantaz/MProctBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheFantaz/MProctBot/issues"
+  },
+  "homepage": "https://github.com/TheFantaz/MProctBot#readme",
+  "dependencies": {
+    "mineflayer": "^4.3.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-auto-eat": "^2.3.3",
+    "mineflayer-pathfinder": "^2.3.1",
+    "mineflayer-pvp": "^1.3.2"
+  }
+}

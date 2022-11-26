@@ -1,0 +1,10 @@
+Bugs that are in the Bot right now:
+
+Fixed Bot is despondent after TPing most of the time(Bot moves after the first hit? Death resets the bot and makes it work)
+
+Fixed Tping would make following false, so after 1 second it can work
+
+Fixed
+!!!Cannot break blocks if they take too long
+Added "    if(bot.pathfinder.isMining()) console.log("mining rn")" which fixed it, don't know why or how
+Guess: Using console.log and checking it creates lag that allows the bot to mine?
