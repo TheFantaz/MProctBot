@@ -132,6 +132,7 @@ function chatFunctions(username, message){
         case 'mode':
             if(message.split(' ')[1].match(/^(protect|passive|shoot|aggressive|guard)$/))
                 guardMode = message.split(' ')[1]
+                bot.chat("Mode: " + message.split(' ')[1])
             return
         case 'drop':
             dropItems()
@@ -141,6 +142,8 @@ function chatFunctions(username, message){
             return
         case 'hostile':
             doOptionalList = !doOptionalList
+            if(doOptionalList) bot.chat("Doesn't attack good mobs")
+            else bot.chat("Attacks good mobs")
 
     }        
 }
