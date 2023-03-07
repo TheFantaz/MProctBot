@@ -1,14 +1,18 @@
 # MProctBot
 
-A bot the protects you
+A bot in the game Minecraft that can follow and protect the player from any threats. 
 
-Modes:
+## Resources Used
+- Javascript
+- Used a premade Nodejs package
+
+#### Modes:
   - protect: attacks enemies that hit the player
   - aggressive: Kills mobs 16 blocks from the player
   - guard: Kills mobs 4 blocks from the player
   - passive: Attacks nothing
 
-Chat Functions:
+#### Chat Functions:
 
   "mode (protect/passive/agressive/guard) " : Changes the mode of the Bot
   
